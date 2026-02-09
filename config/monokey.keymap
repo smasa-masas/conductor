@@ -32,6 +32,11 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        rc {
+            bindings = <&mkp MB2>;
+            key-positions = <16 7>;
+        };
     };
 
     behaviors {
