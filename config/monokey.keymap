@@ -86,7 +86,7 @@
 &kp ESCAPE  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                 &kp CARET  &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &ime_tog                   &kp MINUS  &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH
 &trans      &trans      &trans      &trans      &trans                     &trans     &trans         &kp SEMICOLON     &kp SINGLE_QUOTE      &kp GRAVE
-&trans      &trans      &trans      &trans      &trans      &mo 6  &trans  &trans                                      &trans                &trans
+&trans      &trans      &trans      &trans      &trans      &mo 6  &trans  &trans                                      &trans                &studio_unlock
             >;
         };
 
@@ -131,7 +131,7 @@
         Bluetooth {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans
-&trans  &trans  &trans  &trans  &trans                  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &trans
+&trans  &trans  &trans  &trans  &trans                  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &studio_unlock
 &trans  &trans  &trans  &trans  &trans                  &trans         &trans         &trans         &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader                                  &bt BT_CLR     &bt BT_CLR_ALL
             >;
